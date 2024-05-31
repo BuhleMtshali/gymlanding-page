@@ -1,7 +1,14 @@
+:root {
+  --primary-color: #97fb57;
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
 body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
 }
 .container {
   overflow-y: scroll;
@@ -10,4 +17,58 @@ body {
   width: 100%;
   height: 100vh;
   scroll-behavior: smooth;
+}
+.slide-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/background-image.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.gym-name {
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 600;
+}
+.left-logo {
+  display: flex;
+  color: #ffffff;
+}
+.logo {
+  filter: invert(46%) sepia(98%) saturate(348%) hue-rotate(67deg)
+    brightness(106%) contrast(101%);
+}
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+  color: var(--text-color);
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px;
+  cursor: pointer;
+}
+li:hover {
+  color: var(--primary-color);
+}
+.trial-button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 6.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  color: #121212;
+  transition: all 0.2s ease-in-out;
+}
+.trial-button:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
 }
