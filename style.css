@@ -68,6 +68,7 @@ li:hover {
   color: #121212;
   transition: all 0.2s ease-in-out;
 }
+
 .trial-button:hover {
   background-color: var(--text-color);
   color: var(--background-color);
@@ -88,4 +89,20 @@ li:hover {
 }
 .main-tag-descrip {
   font-size: 18px;
+}
+.mid-top {
+  padding: 16px 20px;
+  border-radius: 6.25rem;
+  background-color: var(--primary-color);
+  color: #121212;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.mid-top:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  transition: all 0.3s ease-in-out;
 }
