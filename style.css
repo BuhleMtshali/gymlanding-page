@@ -75,8 +75,11 @@ li:hover {
 }
 .main-head {
   text-align: center;
-  padding-top: 170px;
-  padding-bottom: 192px;
+  padding-top: 110px;
+  padding-bottom: 180px;
+}
+.green {
+  color: var(--primary-color);
 }
 .main-tag,
 .main-tag-descrip {
@@ -88,7 +91,8 @@ li:hover {
   font-weight: 700;
 }
 .main-tag-descrip {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
 }
 .mid-top {
   padding: 16px 20px;
@@ -105,4 +109,49 @@ li:hover {
   background-color: var(--text-color);
   color: var(--background-color);
   transition: all 0.3s ease-in-out;
+}
+.white-star {
+  filter: brightness(0) invert(1);
+}
+.review-main {
+  padding-top: 80px;
+}
+.number-circle {
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 7px;
+  font-weight: 600;
+}
+.review-text {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+.review-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.review-star-img,
+.number-review-circle,
+.review {
+  padding: 10px;
+}
+.first-top-review {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.round-img img {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.review-des {
+  font-size: 16px;
+  font-weight: 500;
 }
