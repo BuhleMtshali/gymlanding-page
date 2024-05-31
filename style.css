@@ -33,7 +33,7 @@ nav {
 .gym-name {
   color: var(--text-color);
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .left-logo {
   display: flex;
@@ -71,4 +71,21 @@ li:hover {
 .trial-button:hover {
   background-color: var(--text-color);
   color: var(--background-color);
+}
+.main-head {
+  text-align: center;
+  padding-top: 170px;
+  padding-bottom: 192px;
+}
+.main-tag,
+.main-tag-descrip {
+  color: var(--text-color);
+}
+.main-tag {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.main-tag-descrip {
+  font-size: 18px;
 }
