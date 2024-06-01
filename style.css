@@ -419,4 +419,31 @@ li:hover {
   width: 100%;
   height: auto;
   margin: 0;
+  text-align: center;
+}
+.about {
+  padding: 15px 22px;
+  margin-top: 30px;
+  border-radius: 30px;
+  border: 3px solid var(--second-background-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+.about-heading {
+  text-align: center;
+  color: var(--text-color);
+  padding-top: 10px;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.about-para {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 17px;
+  font-weight: 400;
 }
