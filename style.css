@@ -333,3 +333,10 @@ li:hover {
   font-weight: 700;
   color: var(--text-color);
 }
+.membership-container {
+  display: flex;
+  justify-content: space-between;
+}
+.membership-column-1 {
+  background-color: var(--text-color);
+}
