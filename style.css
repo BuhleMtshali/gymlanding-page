@@ -271,9 +271,10 @@ li:hover {
   display: flex;
 }
 .right-description-1 img {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   object-fit: cover;
+  border-radius: 15px;
 }
 .program-descriptions-container-one {
   display: flex;
@@ -281,9 +282,20 @@ li:hover {
   padding-bottom: 50px;
 }
 .name-of-prog {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--text-color);
+  font-weight: 500;
+  background-color: var(--background-color);
+  padding: 12px 15px;
   border: 2px solid var(--decor-color);
   border-radius: 19px;
-  padding: 5px 15px;
+}
+.prog-descr {
+  color: var(--text-color);
+  font-size: 48px;
+}
+.prog-ex {
+  color: var(--text-color);
+  font-size: 18px;
+  padding-left: 10px;
 }
