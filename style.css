@@ -447,3 +447,17 @@ li:hover {
   font-size: 17px;
   font-weight: 400;
 }
+.signup-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.sign-up-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.left-form {
+  display: block;
+}
