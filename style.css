@@ -372,3 +372,12 @@ li:hover {
 .grey-price {
   color: #7f7f7f;
 }
+.month-trial {
+  padding: 13px 19px;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+}
