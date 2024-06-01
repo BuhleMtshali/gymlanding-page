@@ -158,7 +158,7 @@ li:hover {
 .slide-2 {
   background: var(--background-color);
   width: 100%;
-  height: 100vh;
+  height: auto;
   margin: 0;
 }
 .second-heading {
@@ -265,4 +265,17 @@ li:hover {
   display: flex;
   align-items: center; /* Vertically centers the text */
   justify-content: center;
+}
+.prog-specs {
+  display: flex;
+}
+.right-description-1 img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.program-descriptions-container-one {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
 }
