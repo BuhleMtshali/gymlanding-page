@@ -520,4 +520,22 @@ select {
 }
 .name {
   color: var(--text-color);
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.name:hover {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.top-sector {
+  display: flex;
+  justify-content: center;
+}
+.nav-heading {
+  color: var(--text-color);
+  margin-bottom: 5px;
+  font-size: 19px;
 }
