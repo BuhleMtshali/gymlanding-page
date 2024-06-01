@@ -271,10 +271,10 @@ li:hover {
   display: flex;
 }
 .right-description-1 img {
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 19px;
 }
 .program-descriptions-container-one {
   display: flex;
@@ -298,4 +298,13 @@ li:hover {
   color: var(--text-color);
   font-size: 18px;
   padding-left: 10px;
+}
+.mini-descrip {
+  font-size: 16px;
+  color: var(--text-color);
+
+  background-color: #2f2f2f;
+  padding: 15px;
+  border-radius: 0.375rem;
+  border: none;
 }
