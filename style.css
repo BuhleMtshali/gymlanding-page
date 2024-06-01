@@ -335,8 +335,40 @@ li:hover {
 }
 .membership-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .membership-column-1 {
   background-color: var(--text-color);
+  padding: 60px;
+  border-radius: 20px;
+}
+.mont-membership {
+  color: black;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.price {
+  color: var(--second-background-color);
+  font-size: 2.3125rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -3px;
+}
+.black-text-price {
+  color: black;
+  font-size: 22px;
+}
+.tick-price {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.price-tick {
+  padding-left: 10px;
+  font-size: 18px;
+  color: black;
+}
+.grey-price {
+  color: #7f7f7f;
 }
